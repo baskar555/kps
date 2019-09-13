@@ -1,10 +1,8 @@
 @import "css/animate.css";
 @import "css/icomoon.css";
-@import "css/bootstrap.css";
-@import "css/magnific-popup.css";
-/*@import "css/owl.carousel.min.css";
-@import "css/owl.theme.default.min.css";*/
-	
+/* @import "css/owl.carousel.min.css";
+@import "css/owl.theme.default.min.css"; */
+
 @font-face {
   font-family: 'icomoon';
   src: url("assets/fonts/icomoon/icomoon.eot?srf3rx");
@@ -169,7 +167,7 @@ src: local('YouthTouchDEMO-Regular'), url('assets/fonts/Youth-Touch-PERSONAL USE
 }
 /* =======================================================
 *
-* 	Template Style 
+* 	Template Style
 *
 * ======================================================= */
 body {
@@ -205,7 +203,7 @@ body {
       content: ""; }
 
 a {
-  color: #4aca85;
+  color: #bd1c2b;
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s; }
@@ -285,7 +283,9 @@ h1, h2, h3, h4, h5, h6, figure {
     font-weight: 700; }
     .kps-nav #kps-logo a {
       position: relative;
-      color: #fff; }
+      color: #fff;
+			padding: 0;
+		 }
       .kps-nav #kps-logo a i {
         color: #fff;
         display: block;
@@ -1269,6 +1269,12 @@ input[type="text"], input[type="number"] {
 .kps-social-icons li a:hover{
   color: #be1e2d;
 }
+@media screen and (max-width: 768px) {
+  .kps-social-icons {
+    margin-top:-10px;
+  }
+
+   }
 
 .kps-heading {
   margin-bottom: 2em; }
@@ -1780,7 +1786,12 @@ input[type="text"], input[type="number"] {
   max-width: 100%;
 }
 
-
+@media (max-width: 767px) {
+  .footer-menu ul{
+    padding-left: 0;
+    margin-left: 20px;
+  }
+}
 
 .faq-tab-acordian .responsive-tabs {
   margin-top:0px;
@@ -1988,4 +1999,10 @@ input[type="text"], input[type="number"] {
 .faq-tab-acordian .panel-collapse > .panel-body{
   font-size: 13px;
   line-height: 20px;
+}
+.owl-carousel img, .kps-home-add img, .kps-featured .featured-wrap img{
+  margin: 0 auto;
+}
+.kps-featured .featured-wrap{
+  text-align: center;
 }
