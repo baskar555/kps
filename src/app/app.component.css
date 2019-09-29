@@ -1,0 +1,37 @@
+.help-link{
+  display: inline-block;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.help-link li {
+   display: inline-block;
+   margin: 0;
+   width: 100%;
+   float: left;
+}
+.help-link li a {
+   font-size: 16px;
+   font-weight: 500;
+   padding: 2px 0;
+   color: #E2E2E2;
+   cursor: pointer;
+   float: left;
+}
+.help-link li a:hover {
+ color: #ffffff;
+ text-decoration: underline;
+}
+
+
+@media (max-width: 767px) {
+  .copyright{
+    margin-top: 50px;
+  }
+.width-70{
+  width: 70% !important;
+}
+.width-30{
+  width: 30% !important;
+}
+}
