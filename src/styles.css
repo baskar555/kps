@@ -1271,7 +1271,7 @@ input[type="text"], input[type="number"] {
 }
 @media screen and (max-width: 768px) {
   .kps-social-icons {
-    margin-top:-10px;
+    margin-top:0;
   }
 
    }
@@ -1360,6 +1360,9 @@ input[type="text"], input[type="number"] {
   height: 500px;
   position: relative; }
   @media screen and (max-width: 768px) {
+    #kps-footer .copy p{
+      font-size: 11px;
+    }
     #map {
       height: 200px; } }
 
@@ -1787,9 +1790,15 @@ input[type="text"], input[type="number"] {
 }
 
 @media (max-width: 767px) {
+  .footer-menu{
+    width: 100%;
+    margin-top: -74px;
+    float: left;
+  }
   .footer-menu ul{
     padding-left: 0;
     margin-left: 20px;
+    float: left;
   }
 }
 
