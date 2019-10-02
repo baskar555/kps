@@ -54,12 +54,27 @@ export class FaqComponent implements OnInit {
 		            })
 		        })
 		    }
+		    function toggleIcon(e) {
+		    	let flag=false;
+		        if($(e.target).find(".more-less").hasClass('chevron-up')) {
+		        	flag=true;
+		        }
+		        $('.panel-group').find(".more-less").addClass('chevron-down').removeClass('chevron-up');
+		        if(!flag) {
+		        	$(e.target)
+		            .find(".more-less")
+		            .toggleClass('chevron-down chevron-up');
+	            }
+	    	}
+	    	$('.panel-group').on('click', toggleIcon);
 		}());
 
 
 		$('.responsive-tabs').responsiveTabs({
 		     accordionOn: ['xs', 'sm']
 		});
+
+		
 	
 	}
 

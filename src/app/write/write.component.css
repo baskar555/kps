@@ -1,0 +1,49 @@
+.contact-info-area{
+  width: auto;
+  margin: 50px auto;
+  text-align: center;
+}
+.contact-info-area .contact-info{
+  margin: 10px 30px;
+  display: inline-block;
+}
+.contact-info-area .contact-info .icon{
+  width: 36px;
+  height: 36px;
+  margin: 0 10px;
+  float: left;
+}
+.contact-info-area .contact-info .icon.call{
+  background:url("/assets/call-icon-border.svg") no-repeat center center;
+  background-size: 100%;
+}
+.contact-info-area .contact-info .icon.mail{
+  background:url("/assets/mail-icon-border.svg") no-repeat center center;
+  background-size: 100%;
+}
+.contact-info-area .contact-info span{
+  font-size: 20px;
+  color: #15161b;
+  float: left;
+  line-height: 40px;
+}
+.contact-info-area .contact-info span strong{
+  font-weight: 800;
+}
+.contact-info-area .contact-info:hover{
+  cursor: pointer;
+}
+.contact-info-area .contact-info:hover .icon.call{
+  background:url("/assets/call-icon-fill.svg") no-repeat center center;
+  background-size: 100%;
+}
+.contact-info-area .contact-info:hover .icon.mail{
+  background:url("/assets/mail-icon-fill.svg") no-repeat center center;
+  background-size: 100%;
+}
+.contact-info-area .contact-info:hover span{
+  color: #be1e2d;
+}
+.contact-info-area .contact-info:hover span strong{
+  color: #15161b;
+}

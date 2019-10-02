@@ -1323,10 +1323,10 @@ input[type="text"], input[type="number"] {
         margin-bottom: 30px; } }
     #kps-footer .kps-footer-links li {
       padding: 0;
-      margin: 0 0 10px 0;
+      margin: 10px 0 15px 0;
       list-style: none;
       display: block;
-      font-size: 13px; }
+      font-size: 18px; }
       #kps-footer .kps-footer-links li a {
         color: rgba(255, 255, 255, 0.9);
         text-decoration: none; }
@@ -1969,12 +1969,13 @@ input[type="text"], input[type="number"] {
     display: block;
     padding: 15px;
     text-decoration: none;
-        background-color:#fff;
-    color: #333c43;
-    font-size: 15px;
+    background-color:#fff;
+    color: #bd1c2b;
+    font-size: 18px;
   }
 .faq-tab-acordian .panel-title > a:hover, .faq-tab-acordian .panel-title > a:focus{
      color: #bd1c2b;
+     font-weight: 800;
 
 }
 
