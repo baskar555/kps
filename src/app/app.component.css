@@ -35,3 +35,45 @@
   width: 30% !important;
 }
 }
+
+#kps-footer .contact-info{
+  margin: 10px 0;
+  display: inline-block;
+}
+#kps-footer .contact-info .icon{
+  width: 36px;
+  height: 36px;
+  margin: 0 10px;
+  float: left;
+}
+#kps-footer .contact-info .icon.call{
+  background:url("/assets/call-icon-border-white.svg") no-repeat center center;
+  background-size: 100%;
+}
+#kps-footer .contact-info .icon.mail{
+  background:url("/assets/mail-icon-border-white.svg") no-repeat center center;
+  background-size: 100%;
+}
+#kps-footer .contact-info span{
+  font-size: 18px;
+  color: #ffffff;
+  float: left;
+  line-height: 40px;
+}
+#kps-footer .contact-info span strong{
+  font-weight: 800;
+}
+#kps-footer .contact-info:hover{
+  cursor: pointer;
+}
+#kps-footer .contact-info:hover .icon.call{
+  background:url("/assets/call-icon-fill-white.svg") no-repeat center center;
+  background-size: 100%;
+}
+#kps-footer .contact-info:hover .icon.mail{
+  background:url("/assets/mail-icon-fill-white.svg") no-repeat center center;
+  background-size: 100%;
+}
+#kps-footer .contact-info:hover span{
+  color: #ffffff;
+}
